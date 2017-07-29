@@ -3,8 +3,8 @@ var dateUtils = require('date-utils');
 var passport = require('passport');
 var OnshapeStrategy = require('passport-onshape').Strategy;
 
-var oauthClientId;
-var oauthClientSecret;
+var oauthClientId = 'ZJZMQ4EEQCHEIGHPDOFPDC7S6EUN2PYTTABYZVA=';
+var oauthClientSecret = 'BTJQLJRVHD3AWFXKN5AO3UND3TJQHRONWO6IFI3KBWZ7GNWQR5PA====';
 
 if (process.env.OAUTH_CLIENT_ID) {
   oauthClientId = process.env.OAUTH_CLIENT_ID;
